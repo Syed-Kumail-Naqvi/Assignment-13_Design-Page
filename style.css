@@ -2,7 +2,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
     padding: 0;
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCWwYKi_HpTG_o_qmQYwOkmpWGDHTteS2jcw&s);
+    background: url(https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?cs=srgb&dl=pexels-pixabay-326055.jpg&fm=jpg);
     background-size: cover;
     background-blend-mode: darken;
     
@@ -43,14 +43,26 @@ p {
 .button1, .button2 {
     margin: 50px;
     font-size: large;
+    height: 50px;
+    padding: 15px;
 }  
 .button1 {
     border-radius: 25px;
     background: none;
     color: white;
+    border: 1px white solid;
+}
+.button1:hover {
+    background-color: white;
+    color: black;
 }
 .button2 {
     border-radius: 25px;
+    border: 1px white solid;
     background: none;
     color: white;
+}
+.button2:hover {
+    background-color: white;
+    color: black;
 }
